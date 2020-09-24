@@ -3,7 +3,8 @@
   height: 55px;
 
   background-color: black;
-  position: absolute;
+  position: fixed;
+  z-index: 10;
 }
 
 div.head_logo{
@@ -14,27 +15,42 @@ div.head_logo{
 }
 
 img.head_logo{
-  width: 125px;
-  height: 43px;
-  padding-top: 14px;
+  /* width: 125px; */
+  margin-top: 14px;
+}
+
+div.head_search{
+  margin-right: 20px;
+
+  display: inline;
+  line-height: 55px;
+}
+
+img.head_search{
+  width: 24px;
+  /* height: 52px; */
+}
+
+img.head_search:hover{
+  color: rgb(255, 101, 0);
 }
 
 #head_home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 800px;
   height: 55px;
 
   position: absolute;
   top: 0;
-  margin-left: 169px;
+  margin-left: 328px;
 
-  background-color: red;
+  background-color: none;
 }
 
 #Btn{
-  position: absolute;
-  left: 0px;
-  top: 0;
-
   width: 90px;
   height: 55px;
 
@@ -52,11 +68,9 @@ img.head_logo{
 }
 
 .Btn__Home{
+  margin-left: 40px;
 
-  margin-left: 80px;
-  top: 0;
-
-  width: 80px;
+  width: 100px;
   height: 55px;
 
   font-size: 16px;
