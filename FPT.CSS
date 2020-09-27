@@ -1,46 +1,55 @@
-.head{
+.head {
   width: 100%;
-  height: 55px;
+  height: 60px;
 
   background-color: black;
   position: fixed;
   z-index: 10;
 }
 
-div.head_logo{
-  display: inline;
-  line-height: 55px;
-
+img.head_logo {
   margin-left: 15px;
+  margin-top: 15px;
 }
 
-img.head_logo{
-  /* width: 125px; */
-  margin-top: 14px;
+a.head_search {
+  width: 32px;
+  height: 55px;
+
+  position: absolute;
+  top: 0;
+  left: 1385px;
+
+  background-color: none;
 }
 
-div.head_search{
-  margin-right: 20px;
-
-  display: inline;
-  line-height: 55px;
+i.material-icons {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 18px;
 }
 
-img.head_search{
-  width: 24px;
-  /* height: 52px; */
-}
-
-img.head_search:hover{
+i.material-icons:hover {
   color: rgb(255, 101, 0);
 }
 
-#head_home{
+a.head_gift {
+  width: 32px;
+  height: 55px;
+
+  position: absolute;
+  top: 0;
+  left: 1420px;
+
+  background-color: none;
+}
+
+#head_home {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 800px;
+  width: 900px;
   height: 55px;
 
   position: absolute;
@@ -50,8 +59,12 @@ img.head_search:hover{
   background-color: none;
 }
 
-#Btn{
-  width: 90px;
+#Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 110px;
   height: 55px;
 
   color: gray;
@@ -64,27 +77,55 @@ img.head_search:hover{
 }
 
 #Btn:hover {
+  text-decoration: none;
   color: rgb(255, 101, 0);
 }
 
-.Btn__Home{
+.Btn__Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin-left: 40px;
 
-  width: 100px;
+  width: 90px;
   height: 55px;
 
   font-size: 16px;
   color: gray;
   text-align: center;
+  text-decoration: none;
 
-  border: none;
   background-color: black;
 }
 
-.Btn__Home:hover{
+.Btn__Home:hover {
+  text-decoration: none;
   color: rgb(255, 101, 0);
 }
 
+div.log__in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  width: 90px;
+  height: 55px;
 
+  background-color: black;
 
+  position: absolute;
+  top: 0;
+  left: 1480px;
+}
+
+a.log__in {
+  font-size: 16px;
+  text-decoration: none;
+  color: gray;
+}
+
+a.log__in:hover {
+  color: rgb(255, 101, 0);
+  text-decoration: none;
+}
