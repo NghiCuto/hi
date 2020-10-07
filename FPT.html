@@ -1,88 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./FPT.CSS" />
-    <link rel="stylesheet" href="./BODY.css" />
-    <link
-      href="//db.onlinewebfonts.com/c/f462af0a8168d0a315da1c8d3fcf419b?family=Supreme"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Aclonica"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <div class="head">
-      <img
-        class="head_logo"
-        src="C:\Users\nghi.le\Desktop\HTML\web bán hàng\image\logo-FPT.png"
-      />
-      <!-- <div class="head_logo">
-      </div> -->
 
-      <div id="head_home">
-        <a id="Btn">Trang chủ</a>
-        <a class="Btn__Home">Truyền hình</a>
-        <a class="Btn__Home">HBO GO</a>
-        <a class="Btn__Home">Phim bộ</a>
-        <a class="Btn__Home">Thể thao</a>
-        <a class="Btn__Home">Anime</a>
-        <a class="Btn__Home">Xem thêm</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./FPT.CSS" />
+  <link rel="stylesheet" href="./BODY.css" />
+  <link rel="stylesheet" href="./footer_fpt.css">
+  <link href="//db.onlinewebfonts.com/c/f462af0a8168d0a315da1c8d3fcf419b?family=Supreme" rel="stylesheet"type="text/css"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+
+<body>
+  <div class="head">
+    <img class="head_logo" src="C:\Users\nghi.le\Desktop\HTML\web bán hàng\image\logo-FPT.png" />
+
+    <ul class="Btn__Parent">
+      <li class="sub-menu-parents"><a class="Btn__Home" href="#">Trang chủ</a></li>
+      <li class="sub-menu-parents"><a class="Btn__Home" href="#">Truyền hình</a></li>
+      <li class="sub-menu-parents"><a class="Btn__Home" href="#">HBO GO</a></li>
+      <li class="sub-menu-parents"><a class="Btn__Home" href="#">Phim bộ</a></li>
+      <li class="sub-menu-parents"><a class="Btn__Home" href="#">Thể thao</a></li>
+      <li class="sub-menu-parents"><a class="Btn__Home" href="#">Anime</a></li>
+      <li class="sub-menu-parents">
+        <a class="Btn__Home" href="#">Xem thêm</a>
+        <ul class="sub_menu">
+          <li><a class="Btn__Child" href="#">TV Show</a></li>
+          <li><a class="Btn__Child" href="#">Phim lẻ</a></li>
+          <li><a class="Btn__Child" href="#">Phim chiếu rạp</a></li>
+          <li><a class="Btn__Child" href="#">Gói đặc sắc</a></li>
+          <li><a class="Btn__Child" href="#">Thiếu nhi</a></li>
+          <li><a class="Btn__Child" href="#">Hài</a></li>
+          <li><a class="Btn__Child" href="#">Edumall</a></li>
+          <li><a class="Btn__Child" href="#">Học online</a></li>
+        </ul>
+      </li>
+    </ul>
+    
+    <a class="head_search"><i class="material-icons">search</i></a>
+    <a class="head_gift"><i class="material-icons">redeem</i></a>
+    <div class="log__in"><a href="/" target="_blank" class="log__in">Đăng nhập</a></div>
+  </div>
+
+  <div id="body">
+    <div class="Container">
+      <div class="trungthu">
+        <div class="block__title">
+          <h3 class="left">Trung thu là tết đoàn viên</h3>
+        </div>
       </div>
 
-      <a class="head_search">
-        <i class="material-icons">search</i>
-      </a>
+      <div class="movie">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel"
+          style="position: absolute;top: 28px;left: 0;width: 100%;">
 
-      <a class="head_gift">
-        <i class="material-icons">redeem</i>
-      </a>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="movie-item">
+                <a class="movie-item">Gấu Paddington</a>
+                <img class="movie-item" src="img_FPT/teddybear.jpg" alt="" >
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Gia đình đạo tặc</a>
+                <img class="movie-item" src="img_FPT/giadinhdaotac.jpg" >
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Cha nào con nấy</a>
+                <img src="img_FPT/father_son.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Ma ơi chào mi</a>
+                <img src="img_FPT/ghost.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Mộ đom đóm</a>
+                <img src="img_FPT/grave.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Nhà vô địch</a>
+                <img src="img_FPT/champion.jpg" alt="" class="movie-item">
+              </div>
+            </div>
+                    <!-- PART 2 -->
+            <div class="item">
+              <div class="movie-item">
+                <a class="movie-item">Hàng xóm tôi là Totoro</a>
+                <img src="img_FPT/totoro.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Không gia đình</a>
+                <img src="img_FPT/noFamily.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Chú mèo đường phố</a>
+                <img src="img_FPT/bobCat.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Hồi ức về Marni</a>
+                <img src="img_FPT/marni.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Nếu một ngày thế giới<br> không có điện</a>
+                <img src="img_FPT/noElectric.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Nhật kí bán máu</a>
+                <img src="img_FPT/blood.jpg" alt="" class="movie-item">
+              </div>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control material-icons " href="#myCarousel" data-slide="prev">keyboard_arrow_left</a>
+          <a class="right carousel-control material-icons" href="#myCarousel" data-slide="next">keyboard_arrow_right</a>
+        </div>
+      </div>
 
-      <div class="log__in">
-        <a href="/" target="_blank" class="log__in">Đăng nhập</a>
+
+          <!-- KOREAN -->
+      <div class="korean">
+        <div class="block_title">
+          <h3 class="left">Top phim Hàn Quốc hay nhất thập niên</h3>
+        </div>
+      </div>
+      <div class="movie1">
+        <div id="myCarousel_1" class="carousel slide" data-ride="carousel"
+          style="position: absolute;left: 0;top: 439px;width: 100%;">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="movie-item">
+                <a class="movie-item">Tài xế Taxi</a>
+                <img class="movie-item" src="img_FPT/taxi.jpg" alt="" >
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Bi kịch triều đại</a>
+                <img class="movie-item" src="img_FPT/throne.jpg" >
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Đội quân siêu trộm</a>
+                <img src="img_FPT/thieves.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Và em sẽ đến</a>
+                <img src="img_FPT/withyou.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Lớp Kiến trúc</a>
+                <img src="img_FPT/kientruc.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Đường hầm</a>
+                <img src="img_FPT/tunnel.jpg" alt="" class="movie-item">
+              </div>
+            </div>
+                    <!-- PART 2 -->
+            <div class="item">
+              <div class="movie-item">
+                <a class="movie-item">Đúng ở hiện tại, Sai ở tương lai</a>
+                <img src="img_FPT/rightwrong.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Han Gong-Ju</a>
+                <img src="img_FPT/han.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Hy vọng</a>
+                <img src="img_FPT/hope.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Một mình giữa biển đêm</a>
+                <img src="img_FPT/alone.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">Ký ức kẻ sát nhân</a>
+                <img src="img_FPT/killer.jpg" alt="" class="movie-item">
+              </div>
+              <div class="movie-item">
+                <a class="movie-item">90 phút kinh hoàng</a>
+                <img src="img_FPT/90p.jpg" alt="" class="movie-item">
+              </div>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control material-icons turn_left" href="#myCarousel_1" data-slide="prev">keyboard_arrow_left</a>
+          <a class="right carousel-control material-icons turn_right" href="#myCarousel_1" data-slide="next">keyboard_arrow_right</a>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <footer>
+
+    <div class="contain__logo">
+      <div class="footer__logo">
+        <img class="FPT" src="C:\Users\nghi.le\Desktop\HTML\web bán hàng\image\logo-FPT.png" alt="">
+        <img class="img__logo commerce" src="C:\Users\nghi.le\Desktop\commerce.png" alt="">
+        <img class="img__logo dmca" src="C:\Users\nghi.le\Desktop\dmca.png" alt="">
       </div>
     </div>
+    <div class="contain__info">
+      <div class="footer__menu">
+        <a href="#" class="footer__menu data">Gói data</a>
+        <a href="#" class="footer__menu advertise">Quảng cáo</a>
+        <a href="#" class="footer__menu service">Dịch vụ</a>
+        <a href="#" class="footer__menu rules">Điều khoản</a>
+        <a href="#" class="footer__menu policy">Chính sách</a>
+        <a href="#" class="footer__menu contact">Liên hệ</a>
+        <a href="#" class="footer__menu store">Cửa hàng</a>
+        <a href="#" class="footer__menu"><img src="C:\Users\nghi.le\Desktop\HTML\FPT\img_FPT\browser.png" alt=""></a>
+        <a href="#" class="footer__menu"><img src="C:\Users\nghi.le\Desktop\HTML\FPT\img_FPT\smarttv.png" alt=""></a>
+        <a href="#" class="footer__menu"><img src="C:\Users\nghi.le\Desktop\HTML\FPT\img_FPT\apple.png" alt=""></a>
+        <a href="#" class="footer__menu"><img src="C:\Users\nghi.le\Desktop\HTML\FPT\img_FPT\android.png" alt=""></a>
+        <a href="#" class="footer__menu"><img src="C:\Users\nghi.le\Desktop\HTML\FPT\img_FPT\box.png" alt=""></a>
+      </div>
+      <p class="text__first">Công ty Cổ Phần Viễn Đông FPT - Người đại diện: Ông Vũ Anh Tú</p>
+      <p class="text">Trụ sở: Tầng 5, toà nhà PVI, số 1 Phạm Văn Bạch, Quận Cầu Giấy, Hà Nội</p>
+      <p class="text">Điện thoại: 19006600. Email: support@fptplay.net</p>
+      <p class="text another">Số giấy chứng nhận đăng ký kinh doanh: 0101778163 do Sở Kế Hoạch Đầu Tư Thành Phố Hà Nội cấp vào ngày 28/07/2005</p>
+      <p class="text">Giấy phép Cung cấp Dịch vụ Phát thanh, Truyền hình trên mạng Internet số 515/GP-BTTTT cấp ngày 18/11/2016</p>
+    </div>
+    <div class="support">
+      <a href="#" class="material-icons fb fa fa-facebook-f"></a>
+      <div class="sp">
+        <!-- <a href="#" class="sp"><i class="material-icons">announcement</i>Hỗ trợ</a> -->
+        <a href="#" class="sp">
+          <span>
+            <img class="sp" src="C:\Users\nghi.le\Downloads\announcement.png" alt="">
+          </span>Hỗ trợ
+        </a>
+      </div>
 
-    <div id="body">
-      <div class="Container">
-        <div class="trungthu">
-          <div class="block__title">
-            <h3 class="left">Trung thu là tết đoàn viên</h3>
-          </div>
-        </div>
-        
-        <div class="Movie">
-          <div class="Parts">
-            <span class="mv"></span>
-            <a class="mv">Mộ đom đóm</a>
-          </div>
-          
-          <div class="Part1">
-            <a class="mv">Nhà vô địch</a>
-          </div>
-
-          <div class="Part1">
-            <a class="mv">Hàng xóm tôi là Totoro</a>
-          </div>
-        </div>
-
+      <div class="phone">
+        <!-- <span>
+          <i class="material-icons">phone</i>19006600
+        </span> -->
+        <i class='fas fa-phone-alt' style='font-size:16px;padding:12px 0px 0px 15px;'> 19006600</i>
       </div>
     </div>
-  </body>
+    
+  </footer>
+</body>
+
 </html>

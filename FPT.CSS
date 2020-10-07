@@ -44,7 +44,98 @@ a.head_gift {
   background-color: none;
 }
 
-#head_home {
+
+/* ul li */
+.sub-menu-parents {
+  width: 120px;
+
+  position: relative;
+  margin-left: 20px;
+
+  list-style: none;
+  line-height: 55px;
+}
+
+a.Btn__Home {
+  margin-top: 0px;
+  
+  background-color: rgb(0, 0, 0);
+  color: rgb(155, 155, 155);
+
+  font-size: 16px;
+  display: block;
+  line-height: 55px;
+  /* text-align: left; */
+}
+
+a.Btn__Home:hover {
+  color: rgb(255, 101, 0);
+  text-decoration: none;
+}
+
+.Btn__Child{
+  color: rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0);
+
+  font-size: 18px;
+  line-height: 35px;
+  text-align: left;
+  display: list-item;
+  text-decoration: none;
+
+  margin-top: 5px;
+  /* padding: 10px 10px 10px 0px; */
+}
+.Btn__Child:hover{
+  color: rgb(255, 101, 0);
+  text-decoration: none;
+}
+
+.sub_menu {
+  background-color: black;
+
+  visibility: hidden;
+  opacity: 0;
+  list-style-type: none;
+  display: inline-block;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding:0em 1em;
+
+  width: 170%;
+  height: 330px;
+
+  transform: translateY(-3px);
+  z-index: -1;
+  transition: all 0.3s ease-in-out, linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.sub-menu-parents:focus .sub_menu,
+.sub-menu-parents:hover .sub_menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 5;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.Btn__Parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 900px;
+  line-height: 55px;
+
+  position: absolute;
+  top: 0;
+  margin-left: 328px;
+}
+
+
+/* #head_home {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,9 +148,9 @@ a.head_gift {
   margin-left: 328px;
 
   background-color: none;
-}
+} */
 
-#Btn {
+/* #Btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,8 +170,8 @@ a.head_gift {
 #Btn:hover {
   text-decoration: none;
   color: rgb(255, 101, 0);
-}
-
+} */
+/* 
 .Btn__Home {
   display: flex;
   justify-content: center;
@@ -103,6 +194,28 @@ a.head_gift {
   text-decoration: none;
   color: rgb(255, 101, 0);
 }
+
+div.Btn__Bonus{
+  
+} */
+
+/* div.Btn__Hover{
+  width: 148px;
+  height: 280px;
+  background-color: rgb(17, 17, 17);
+}
+
+a.Btn__Child{
+  width: 100%;
+  height: 35px;
+
+  text-decoration: none;
+}
+
+a.Btn__Child:hover{
+  color: rgb(255, 101, 0);
+  text-decoration: none;
+} */
 
 div.log__in {
   display: flex;
