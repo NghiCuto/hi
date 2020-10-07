@@ -162,8 +162,8 @@ a.sp {
   font-size: 16px;
   color: rgb(255, 255, 255);
 
-  /* padding: 20px 0px 0px 10px; */
-  margin-top: 20px;
+  padding: 20px 0px 0px 10px;
+  /* margin-top: 20px; */
 
   text-align: left;
   /* display: inline; */
@@ -174,7 +174,7 @@ a.sp:hover{
   text-decoration: none;
 }
 
-img.sp{
+/* img.sp{
   width: 16px;
   height: 16px;
 
@@ -182,7 +182,7 @@ img.sp{
 
 img.sp:hover{
   color: rgb(255, 101, 0);
-}
+} */
 
 /* a.material-icons{
   display: flex;
