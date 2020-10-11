@@ -47,13 +47,14 @@ a.head_gift {
 
 /* ul li */
 .sub-menu-parents {
-  width: 120px;
+  width: 90px;
 
   position: relative;
   margin-left: 20px;
 
   list-style: none;
   line-height: 55px;
+  /* background-color: red; */
 }
 
 a.Btn__Home {
@@ -61,6 +62,7 @@ a.Btn__Home {
   
   background-color: rgb(0, 0, 0);
   color: rgb(155, 155, 155);
+  /* background-color: red; */
 
   font-size: 16px;
   display: block;
@@ -135,87 +137,6 @@ a.Btn__Home:hover {
 }
 
 
-/* #head_home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 900px;
-  height: 55px;
-
-  position: absolute;
-  top: 0;
-  margin-left: 328px;
-
-  background-color: none;
-} */
-
-/* #Btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 110px;
-  height: 55px;
-
-  color: gray;
-  text-align: center;
-  font-size: 16px;
-
-  background-color: black;
-  border: none;
-  border-bottom: 3px solid rgb(255, 101, 0);
-}
-
-#Btn:hover {
-  text-decoration: none;
-  color: rgb(255, 101, 0);
-} */
-/* 
-.Btn__Home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-left: 40px;
-
-  width: 90px;
-  height: 55px;
-
-  font-size: 16px;
-  color: gray;
-  text-align: center;
-  text-decoration: none;
-
-  background-color: black;
-}
-
-.Btn__Home:hover {
-  text-decoration: none;
-  color: rgb(255, 101, 0);
-}
-
-div.Btn__Bonus{
-  
-} */
-
-/* div.Btn__Hover{
-  width: 148px;
-  height: 280px;
-  background-color: rgb(17, 17, 17);
-}
-
-a.Btn__Child{
-  width: 100%;
-  height: 35px;
-
-  text-decoration: none;
-}
-
-a.Btn__Child:hover{
-  color: rgb(255, 101, 0);
-  text-decoration: none;
-} */
 
 div.log__in {
   display: flex;
